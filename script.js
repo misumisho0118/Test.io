@@ -98,7 +98,7 @@ async function initDashboard() {
         // Add "All Time" option
         const allOption = document.createElement('option');
         allOption.value = 'all';
-        allOption.textContent = '全期間';
+        allOption.textContent = '全部出す';
         monthFilter.appendChild(allOption);
         months.forEach(m => {
             const opt = document.createElement('option');
