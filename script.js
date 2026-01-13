@@ -52,7 +52,7 @@ function initRegister() {
             const result = await response.json();
             if (result.status === 'success') {
                 loading.classList.add('hidden'); // Hide spinner so message is visible
-                showMessage(`✅ Registered! Count: ${result.data.count}`, 'success');
+                showMessage(`✅ 正常に記録されました`, 'success');
                 setTimeout(() => {
                     window.location.href = 'index.html';
                 }, 3000);
